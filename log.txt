@@ -1,0 +1,55 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.8.RELEASE)
+
+2022-03-11 16:15:40.098  INFO 21905 --- [           main] c.b.s.SpringBootSecurityJwtApplication   : Starting SpringBootSecurityJwtApplication v0.0.1-SNAPSHOT on CVManagementSystem1 with PID 21905 (/home/cvms1/cvmanagementsystem2/target/spring-boot-security-jwt-0.0.1-SNAPSHOT.jar started by cvms1 in /home/cvms1/cvmanagementsystem2)
+2022-03-11 16:15:40.101  INFO 21905 --- [           main] c.b.s.SpringBootSecurityJwtApplication   : No active profile set, falling back to default profiles: default
+2022-03-11 16:15:41.388  INFO 21905 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-03-11 16:15:41.473  INFO 21905 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78ms. Found 3 repository interfaces.
+2022-03-11 16:15:41.944  INFO 21905 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e50df27a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-11 16:15:41.992  INFO 21905 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$7dbbbab4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-11 16:15:42.000  INFO 21905 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-11 16:15:42.002  INFO 21905 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@568ff82' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-11 16:15:42.004  INFO 21905 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$a2905d66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-11 16:15:42.013  INFO 21905 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-11 16:15:42.364  INFO 21905 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-11 16:15:42.498  INFO 21905 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-11 16:15:42.498  INFO 21905 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-03-11 16:15:42.631  INFO 21905 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-11 16:15:42.631  INFO 21905 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2457 ms
+2022-03-11 16:15:42.863  INFO 21905 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-11 16:15:43.040  INFO 21905 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-11 16:15:43.113  INFO 21905 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-03-11 16:15:43.226  INFO 21905 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2022-03-11 16:15:43.231  INFO 21905 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2022-03-11 16:15:43.452  INFO 21905 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-03-11 16:15:43.702  INFO 21905 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-03-11 16:15:44.009  WARN 21905 --- [           main] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): com.bezkoder.springjwt.models.TicketDepartmentId
+2022-03-11 16:15:44.009  WARN 21905 --- [           main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): com.bezkoder.springjwt.models.TicketDepartmentId
+2022-03-11 16:15:44.009  WARN 21905 --- [           main] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): com.bezkoder.springjwt.models.JobLevelId
+2022-03-11 16:15:44.009  WARN 21905 --- [           main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): com.bezkoder.springjwt.models.JobLevelId
+2022-03-11 16:15:44.010  WARN 21905 --- [           main] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): com.bezkoder.springjwt.models.TicketUserId
+2022-03-11 16:15:44.010  WARN 21905 --- [           main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): com.bezkoder.springjwt.models.TicketUserId
+2022-03-11 16:15:44.822  INFO 21905 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-11 16:15:45.936  WARN 21905 --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-11 16:15:46.193  INFO 21905 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/v2/api-docs'], []
+2022-03-11 16:15:46.193  INFO 21905 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/configuration/ui'], []
+2022-03-11 16:15:46.193  INFO 21905 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2022-03-11 16:15:46.193  INFO 21905 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/configuration/security'], []
+2022-03-11 16:15:46.193  INFO 21905 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+2022-03-11 16:15:46.193  INFO 21905 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/webjars/**'], []
+2022-03-11 16:15:46.248  INFO 21905 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1af7f54a, org.springframework.security.web.context.SecurityContextPersistenceFilter@547e29a4, org.springframework.security.web.header.HeaderWriterFilter@3caa4757, org.springframework.web.filter.CorsFilter@6ebd78d1, org.springframework.security.web.authentication.logout.LogoutFilter@c8b96ec, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5167268, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@238b521e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@21680803, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@436390f4, org.springframework.security.web.session.SessionManagementFilter@1804f60d, org.springframework.security.web.access.ExceptionTranslationFilter@7cd1ac19, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@733037]
+2022-03-11 16:15:46.278  INFO 21905 --- [           main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2022-03-11 16:15:46.413  INFO 21905 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-11 16:15:46.702  INFO 21905 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-03-11 16:15:46.717  INFO 21905 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-03-11 16:15:46.754  INFO 21905 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-03-11 16:15:46.992  INFO 21905 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-11 16:15:46.994  INFO 21905 --- [           main] c.b.s.SpringBootSecurityJwtApplication   : Started SpringBootSecurityJwtApplication in 7.55 seconds (JVM running for 7.977)

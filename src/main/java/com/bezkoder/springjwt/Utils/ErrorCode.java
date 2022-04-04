@@ -1,0 +1,41 @@
+package com.bezkoder.springjwt.Utils;
+
+public enum ErrorCode {
+    ERR_USER_NOT_FOUND("ER0101"),
+    ERR_SESSSION_EXPIRE("ER0102"),
+    ERR_NOT_ROLE("ER0102"),
+    ERR_INVALID_DATA("ER0032"),
+    ERR_ACC_DISABLED("ER0105"),
+    ERR_USER_NAME_DUPLICATE("ER0105"),
+    ERR_EMAIL_NOT_EXISTS("ER002"),
+    ERR_PASSWORD_IS_INCORRECT("ER003"),
+    ERR_PASSWORD_NOT_FOUND("ER0004"),
+    ERR_OLD_PASSWORD_IS_NOT_CORRECT("ER0005"),
+    ERR_WRONG_PASSWORD_FORMAT("ER0006"),
+    ERR_NEW_PASSWORD_DOES_NOT_MATCH("ER0007"),
+    ERR_THE_LINK_TIME_OUT("ER0008"),
+    ERR_SYSTEM_ERROR("ER0009"),
+    ERR_MUST_BE_NOT_NULL("ER010"),
+    ERR_TIME_OUT("CD0054"),
+    ERR_USER_NOT_ADMIN("ER001"),
+    ERR_TICKET_NOT_FOUND("ER002"),
+    ERR_DUPLICATE_JOB("ER003"),
+    ERR_DUPLICATE_LEVEL("ER004"),
+    ERR_JOB_NOT_FOUND("ER005"),
+    ERR_LEVEL_NOT_FOUND("ER006"),
+    ERR_DEPARTMENT_NOT_FOUND("ER007"),
+    ERR_DOWNLOAD_LEVEL("ER008"),
+    ERR_FILE_NOT_FOUND("ER011"),
+    ERR_UPLOAD_FILE("ER009"), ERR_DATE("ER010");
+
+
+    ErrorCode(String message) {
+        this.message = message;
+    }
+
+    private String message;
+
+    public String getMessage() {
+        return message;
+    }
+}
